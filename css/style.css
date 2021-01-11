@@ -1,0 +1,79 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.contenedor{
+    width: 80%;
+    height: 30vh;
+    margin-top: 1rem;
+}
+.buscar{
+    text-align: center;
+    padding: 5px 10px;
+    background-color: rgb(89, 73, 230);
+}
+.buscar-input{
+    width: 70%;
+    outline: none;
+    border: 1px solid rgb(195, 195, 243);
+}
+.buscar-boton{
+    width: 50px;
+    outline: none;
+    background-color: rgb(195, 195, 243);
+    border-style: none;
+}
+.pokemon{
+    width: 100%;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pokemon-imagen{
+    width: 20rem;
+    position: absolute;
+    top: 0;
+    right: 4rem;
+}
+.pokemon-arriba{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(253, 18, 18);
+}
+.info{
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.info-nombre{
+    text-transform: uppercase;
+}
+.info-habilidades{
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+}
+.info-habilidad{
+    padding: 10px;
+    text-transform: capitalize;
+}
+.info-tipo{
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+}
+.info-tipo{
+    padding: 10px;
+    text-transform: capitalize;
+}
